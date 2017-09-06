@@ -1,0 +1,30 @@
+{
+  "name": "@pact-foundation/pact-logo",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/pact-foundation/pact-logo#readme",
+  "engine": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pact-foundation/pact-logo.git"
+  },
+  "keywords": [
+    "pact",
+    "foundation",
+    "logo",
+    "media",
+    "images",
+    "brand"
+  ],
+  "author": "Michel Boudreau <michelboudreau@gmail.com> (codinghitchhiker.com)",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pact-foundation/pact-logo/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {}
+}

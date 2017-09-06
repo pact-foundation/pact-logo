@@ -1,0 +1,10 @@
+language: node_js
+node_js: stable
+deploy:
+  - provider: npm
+    skip_cleanup: true
+    email: pact-foundation@googlegroups.com
+    api_key:
+      secure: "ZHrVDYZ4QSDKwZ6fmTRlo/AitRv1Zn6g9wLsFXeeFeEheGt84pHMnEX+ByY+KWwD/93rf9OLD8EnSp2Fin/zzqGu/dqg5GBjzIUXnbrKenYV7v6EozQ8yzmneV6ybD9d4um/65fgU4DH2fxvRBOnVTh0yCm6IdEH50KcDBY3mNrljMBo80Zmshh4gtOxsYbulRXZJsDQDRVtoFkIHXeJEfO59jMTDEgdcNkiJ6Ci0qS5t7Kwtv0BuhrSoinym/EHIKB8OrSEuUdVLI7UUokH5koDdEIP9nmo1VE+GVUPut8LjfHU/vYK3Of+UjVWEnCjLJTWNeKrlGDJE5l1AjJEJpUefGxmosTHdMpsg82uhtfLeG8b6ClAPsLOSqLXLGqWrr6mMsyX86cxxMxvKU7wqIujT0fUXnnMcFjkj7JYyfOM38pgFzHnkw1/ciNewRn6hxdacVnxtyvgcXP+cbOx1hzJsajeiP/1fVK4yyoaED1QU1jeOfxTC8jPkRFZ5THh36Zr88Ofdb1ELlXp9DKLEECyn61OtIQ8l/lMsECpFZ/TigEVMzpU9ztTSGAweefjvt+yAQ5rswel16cgCuoBrgrCZqdNcybBWYnHIRZzbxKlJESZDuYcGIdREjrhBkXlv/Q8aWJx7CuAqh2mW/AfgDn7OuMyVo14KqHszJulNmg="
+    on:
+      tags: true
