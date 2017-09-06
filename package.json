@@ -1,7 +1,7 @@
 {
   "name": "@pact-foundation/pact-logo",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's the logo, duh",
   "homepage": "https://github.com/pact-foundation/pact-logo#readme",
   "engine": {
     "node": ">=4"
