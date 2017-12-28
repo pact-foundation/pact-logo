@@ -1,6 +1,6 @@
 {
   "name": "@pact-foundation/pact-logo",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "It's the logo, duh",
   "homepage": "https://github.com/pact-foundation/pact-logo#readme",
   "engine": {

@@ -16,19 +16,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.pact-logo {
+.pact-logo:after {
 	content: "PACT \f000" 
 }
 
-.pact-logo-reverse {
+.pact-logo-reverse:after {
 	content: "\f000 PACT"
 }
 
-.pact-chain {
+.pact-chain:after {
 	content: "\f000"
 }
 
-.pact-text {
+.pact-text:after {
 	content: "PACT"
 }
 
