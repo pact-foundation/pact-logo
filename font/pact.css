@@ -20,7 +20,15 @@
 	content: "PACT \f000" 
 }
 
+.pact-logo-reverse {
+	content: "\f000 PACT"
+}
+
 .pact-chain {
 	content: "\f000"
+}
+
+.pact-text {
+	content: "PACT"
 }
 
