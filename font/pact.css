@@ -32,3 +32,23 @@
 	content: "PACT"
 }
 
+.pact-xs {
+	font-size: 11px;
+}
+
+.pact-sm {
+	font-size: 16px;
+}
+
+.pact-md {
+	font-size: 28px;
+}
+
+.pact-lg {
+	font-size: 48px;
+}
+
+.pact-xl {
+	font-size: 72px;
+}
+
