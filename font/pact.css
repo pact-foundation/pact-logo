@@ -8,28 +8,29 @@
 }
 
 .pact {
-  display: inline-block;
-  font: normal normal normal 14px Pact-Regular;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	display: inline-block;
+	font: normal normal normal 14px Pact-Regular;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 0.9em;
 }
 
 .pact-logo:after {
-	content: "PACT \f000" 
+	content: "PACT \f000";
 }
 
 .pact-logo-reverse:after {
-	content: "\f000 PACT"
+	content: "\f000 PACT";
 }
 
 .pact-chain:after {
-	content: "\f000"
+	content: "\f000";
 }
 
 .pact-text:after {
-	content: "PACT"
+	content: "PACT";
 }
 
 .pact-xs {
@@ -62,4 +63,32 @@
 
 .pact-grey {
 	color: #999;
+}
+
+.pact-foundation-logo:after {
+	content: "PACT FOUNDATION";
+}
+
+.pact-foundation-logo-compact:before {
+	content: "PACT";
+}
+
+.pact-foundation-logo-compact:after {
+	content: "FOUNDATION";
+	font-size: 0.3765em;
+	line-height: 0.4em;
+	display: block;
+	padding-left: 0.15em;
+}
+
+.pact-top {
+	vertical-align: top;
+}
+
+.pact-middle {
+	vertical-align: middle;
+}
+
+.pact-bottom {
+	vertical-align: bottom;
 }
