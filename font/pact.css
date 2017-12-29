@@ -14,7 +14,7 @@
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	line-height: 0.9em;
+	line-height: 1em;
 }
 
 .pact-logo:after {
